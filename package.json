@@ -1,0 +1,22 @@
+{
+  "name": "kcomb",
+  "version": "1.0.0",
+  "description": "tcomb was a library for Node.js and the browser which allows you to check the types of JavaScript values at runtime with a simple and concise syntax. It's great for Domain Driven Design and for adding safety to your internal code. Kcomb is an update of Tcomb",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmartin91/kcomb.git"
+  },
+  "author": "G.Canti & K.Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmartin91/kcomb/issues"
+  },
+  "homepage": "https://github.com/kmartin91/kcomb#readme",
+  "source": "main.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js"
+}
