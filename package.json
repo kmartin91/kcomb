@@ -15,8 +15,11 @@
     "url": "https://github.com/kmartin91/kcomb/issues"
   },
   "homepage": "https://github.com/kmartin91/kcomb#readme",
-  "source": "main.js",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "unpkg": "dist/index.umd.js"
+  "scripts": {
+    "dist": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
 }
